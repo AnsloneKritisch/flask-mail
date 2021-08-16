@@ -1,5 +1,5 @@
-import flask import flask ,render_template,requests
-from flask_mail import Mail,Message
+import flask import flask , render_template ,requests
+from flask_mail import Mail , Message
 app = Flask(__name__)
 mail = Mail(app)
 @app.route(/)
